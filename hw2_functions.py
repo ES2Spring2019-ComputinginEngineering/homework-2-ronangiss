@@ -45,7 +45,7 @@ def distancebetweenpoints(x1, y1, x2, y2):
     # (x1, y1) and (x2, y2).
 
 
-    distance = 0 # replace with your calculation for distance
+    distance = math.sqrt(((x2-x1)**2)+((y2-y1)**2)) # replace with your calculation for distance
     return distance
 
 def heronsformula(a, b, c):
