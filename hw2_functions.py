@@ -61,9 +61,16 @@ def areaofatriangle(m1, b1, m2, b2, m3, b3):
     #Using the three functions above, now calculate the area of a
     #triangle when the three sides are described by three linear equations
     #y = (m1 * x) + b1;  y = (m2 * x) + b2; and y = (m3 * x) + b3
-
-
-    area = 0 #replace this with your calculation for area
+    pointAx = intersectionoftwolines_x(m1,b1,m2,b2)
+    pointAy = intersectionoftwolines_y(m1,b1,m2,b2)
+    pointBx = intersectionoftwolines_x(m1,b1,m3,b3)
+    pointBy = intersectionoftwolines_y(m1,b1,m3,b3)
+    pointCx = intersectionoftwolines_x(m3,b3,m2,b2)
+    pointCy = intersectionoftwolines_y(m3,b3,m2,b2)
+    a = distancebetweenpoints(pointAx, pointAy, pointBx, pointBy)
+    b = distancebetweenpoints(pointAx, pointAy, pointCx, pointCy)
+    c = distancebetweenpoints(pointCx, pointCy, pointBx, pointBy)
+    area = heronsformula(a, b, c) #replace this with your calculation for area
     return area
 
 
