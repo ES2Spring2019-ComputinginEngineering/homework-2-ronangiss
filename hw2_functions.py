@@ -4,7 +4,7 @@
 # FILL THESE COMMENTS IN
 #*****************************************
 # YOUR NAME: Rónán Gissler
-# NUMBER OF HOURS TO COMPLETE:  (please track how long this homework takes you to complete).
+# NUMBER OF HOURS TO COMPLETE:  1/2 (please track how long this homework takes you to complete).
 # YOUR COLLABORATION STATEMENT(s) (refer to syllabus):
 #
 #*****************************************
