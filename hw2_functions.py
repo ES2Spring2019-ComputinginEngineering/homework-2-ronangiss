@@ -53,8 +53,8 @@ def heronsformula(a, b, c):
     # You may want to look up Heron's formula online.
 
 
-
-    area = 0 #replace this with your calculation for area
+    s = (a+b+c)/2
+    area = math.sqrt(s*(s-a)*(s-b)*(s-c)) #replace this with your calculation for area
     return area
 
 def areaofatriangle(m1, b1, m2, b2, m3, b3):
